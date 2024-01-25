@@ -7,6 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		ArrayList<String> cars = new ArrayList<String>();
+		// adding cars to the ArrayList
 		cars.add("Volvo");
 		cars.add("BMW");
 		cars.add("Ford");
