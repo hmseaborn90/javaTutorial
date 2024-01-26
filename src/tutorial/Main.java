@@ -14,20 +14,20 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		OuterClass out = new OuterClass();
-		out.inner();
-//		LinkedList<String> c = new LinkedList<String>();
-//        c.add("Red");
-//        c.add("Blue");
-//        c.add("Green");
-//        c.add("Orange");
-//        c.remove("Green");
-//        System.out.println(c);
-//		
-//        for(String s: c) {
-//            System.out.println(s);
-//        }
-//		
+//		OuterClass out = new OuterClass();
+//		out.inner();
+		LinkedList<String> c = new LinkedList<String>();
+        c.add("Red");
+        c.add("Blue");
+        c.add("Green");
+        c.add("Orange");
+        c.remove("Green");
+        System.out.println(c);
+		
+        for(String s: c) {
+            System.out.println(s);
+        }
+		
 //		
 //        String result = "";
 //        for (int i = 2; i <= 3 / 2; ++i) {
