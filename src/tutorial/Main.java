@@ -13,20 +13,28 @@ import java.util.TreeMap;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		Car ford = new Car();
+		ford.speedUp(10);
+		ford.changeGear(2);
+		ford.display();
+		ford.out();
+		int x = Vehicle.math(4);
+		System.out.println(x);
 
 //		OuterClass out = new OuterClass();
 //		out.inner();
-		LinkedList<String> c = new LinkedList<String>();
-        c.add("Red");
-        c.add("Blue");
-        c.add("Green");
-        c.add("Orange");
-        c.remove("Green");
-        System.out.println(c);
-		
-        for(String s: c) {
-            System.out.println(s);
-        }
+//		LinkedList<String> c = new LinkedList<String>();
+//        c.add("Red");
+//        c.add("Blue");
+//        c.add("Green");
+//        c.add("Orange");
+//        c.remove("Green");
+//        System.out.println(c);
+//		
+//        for(String s: c) {
+//            System.out.println(s);
+//        }
 		
 //		
 //        String result = "";
