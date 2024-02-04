@@ -13,14 +13,39 @@ import java.util.TreeMap;
 public class Main {
 
 	public static void main(String[] args) {
+
+		Level lvl = Level.HIGH;
 		
-		Car ford = new Car();
-		ford.speedUp(10);
-		ford.changeGear(2);
-		ford.display();
-		ford.out();
-		int x = Vehicle.math(4);
-		System.out.println(x);
+	
+//		System.out.println(Level.valueOf("LOW"));
+		lvl.setLvl(5);
+		System.out.println(lvl.getLvl());
+		Level[] arr = Level.values();
+		
+		for (Level e : arr) {
+			System.out.println(e);
+		}
+		
+		switch(lvl) {
+	  case HIGH:
+	    System.out.println(lvl);
+	    break;
+	  case MEDIUM:
+	    System.out.println(lvl);
+	    break;
+	  case LOW:
+	  	System.out.println(lvl);
+	  	break;
+	  default:
+	  	System.out.println("Level is out of range");
+	}
+//		Car ford = new Car();
+//		ford.speedUp(10);
+//		ford.changeGear(2);
+//		ford.display();
+//		ford.out();
+//		int x = Vehicle.math(4);
+//		System.out.println(x);
 
 //		OuterClass out = new OuterClass();
 //		out.inner();

@@ -1,4 +1,4 @@
-package soloLearn;
+package codecademy;
 
 public class testing {
 
